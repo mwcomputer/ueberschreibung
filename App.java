@@ -15,6 +15,13 @@ public class App {
         ausgabe(worker.fly());
         ausgabe(drone.fly());
 
+        ausgabe("----------------");
+
+        // Das sollte eigentlich nicht möglich sein
+	    // --> Lösung: Abstrakte Klasse 
+        HoneyBee bee = new HoneyBee();
+        ausgabe(bee.doYourJob());
+
     }
 
     private static void ausgabe(String outStr){
