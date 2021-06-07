@@ -1,9 +1,9 @@
 public class App {
     public static void main(String[] args) {
      
-        Queen queen = new Queen();
-        Worker worker = new Worker();
-        Drone drone = new Drone();
+        HoneyBee queen = new Queen();
+        HoneyBee worker = new Worker();
+        HoneyBee drone = new Drone();
 
         ausgabe(queen.doYourJob());
         ausgabe(worker.doYourJob());
